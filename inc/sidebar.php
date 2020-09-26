@@ -7,7 +7,7 @@
                             </a>
                         </h1>
                         <div class="site-description">
-                            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="//music.163.com/outchain/player?type=2&id=26771173&auto=0&height=32" style="margin:-10px 0 10px -10px"></iframe>
+                            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=52 src="//music.163.com/outchain/player?type=2&id=26771173&auto=1&height=32" style="margin:-10px 0 10px -10px"></iframe>
                             <br>
                             bigtran,<br>
                             at Beijing, China.<br>
