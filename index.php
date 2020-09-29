@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <?php require_once("inc/header.php");?>
+        <?php require("inc/header.php");?>
+
     </head>
 
     <body class="blog">
@@ -15,7 +16,7 @@
         <div id="content" class="site-content">
 
             <div class="content-left">
-                <?php require_once("inc/sidebar.php");?>
+                <?php require("inc/sidebar.php");?>
             </div>
 
             <div class="content-right">
@@ -23,14 +24,14 @@
                     <div class="blog-holder">
                         <article class="blog-item-holder">
                             <div class="featured-image">
-                                <img src="images/blog_img_01.jpg" alt="" />
+                                <img src="<?=$theme_url?>images/blog_img_01.jpg" alt="" />
                             </div>
                             <div class="item-text">
                                 <div class="item-info">
                                     <div class="item-info-left">
                                         <ul>
                                             <li class="item-info-title">Date</li>
-                                            <li class="item-info-text">Apr 27, 2017</li>
+                                            <li class="item-info-text">Sep 27, 2020</li>
                                         </ul>
 
                                     </div>
@@ -38,7 +39,7 @@
 
                                         <ul>
                                             <li class="item-info-title">In</li>
-                                            <li class="item-info-text">Branding</li>
+                                            <li class="item-info-text">Daily Life</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -60,7 +61,7 @@
         </div>
 
 
-        <?php require_once("inc/footer.php");?>
+        <?php require("inc/footer.php");?>
         
     </body>
 </html>

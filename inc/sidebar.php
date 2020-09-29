@@ -1,9 +1,9 @@
                 <div class="content-left-holder">
                     <div class="welcome-content">
-                        <img class="welcome-image" src="images/background.png" alt="" />
+                        <img class="welcome-image" src="<?=$theme_url?>images/background.png" alt="" />
                         <h1 class="site-logo" style="height:350px; font-size:60px; line-height: 60px;">
                             <a href="/">
-                                bigtran’s <br> notes
+                                bigtran's <br> notes
                             </a>
                         </h1>
                         <div class="site-description">
