@@ -1,17 +1,17 @@
-        <title>translog - blog application based on webman</title>
+        <title><?=_siteInfo('title')?></title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <meta name="description" content="Translog Theme by bigtran" />
-        <meta name="keywords" content="PHP, webman" />
-        <meta name="author" content="CocoBasic" />
+        <meta name="description" content="<?=_siteInfo('description')?>" />
+        <meta name="keywords" content="<?=_siteInfo('keywords')?>" />
+        <meta name="author" content="<?=_siteInfo('author')?>" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <link rel="shortcut icon" href="<?=$theme_url?>images/favicon.ico" />        
-        <link rel="stylesheet" type="text/css"  href='<?=$theme_url?>css/clear.css' />
-        <link rel="stylesheet" type="text/css"  href='<?=$theme_url?>css/common.css' />
-        <link rel="stylesheet" type="text/css"  href='<?=$theme_url?>css/font-awesome.min.css' />
-        <link rel="stylesheet" type="text/css"  href='<?=$theme_url?>css/flickity.min.css' />
-        <link rel="stylesheet" type="text/css"  href='<?=$theme_url?>css/sm-clean.css' />        
-        <link rel="stylesheet" type="text/css"  href='<?=$theme_url?>style.css' />
+        <link rel="shortcut icon" href="<?=_themeUrl()?>images/favicon.ico" />        
+        <link rel="stylesheet" type="text/css"  href='<?=_themeUrl()?>css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='<?=_themeUrl()?>css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='<?=_themeUrl()?>css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='<?=_themeUrl()?>css/flickity.min.css' />
+        <link rel="stylesheet" type="text/css"  href='<?=_themeUrl()?>css/sm-clean.css' />        
+        <link rel="stylesheet" type="text/css"  href='<?=_themeUrl()?>style.css' />
 
         <!--[if lt IE 9]>
                 <script src="<?=$theme_url?>js/html5.js"></script>            
