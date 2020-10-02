@@ -24,7 +24,7 @@
                     <div class="blog-holder">
                         <article class="blog-item-holder">
                             <div class="featured-image">
-                                <img src="<?=$theme_url?>images/blog_img_01.jpg" alt="" />
+                                <img src="<?=_themeUrl()?>images/blog_img_01.jpg" alt="" />
                             </div>
                             <div class="item-text">
                                 <div class="item-info">

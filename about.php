@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en-US">
     <head>
-        <?php require_once("inc/header.php");?>
+        <?php require("inc/header.php");?>
     </head>
 
     <body class="page page-about">
@@ -13,7 +13,7 @@
         <div id="content" class="site-content">
 
             <div class="content-left">
-                <?php require_once("inc/sidebar.php");?>
+                <?php require("inc/sidebar.php");?>
             </div>
 
             <div class="content-right">  
@@ -98,6 +98,6 @@
             <div class="clear"></div>
         </div>        
 
-        <?php require_once("inc/footer.php");?>
+        <?php require("inc/footer.php");?>
     </body>
 </html>

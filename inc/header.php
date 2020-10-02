@@ -14,6 +14,6 @@
         <link rel="stylesheet" type="text/css"  href='<?=_themeUrl()?>style.css' />
 
         <!--[if lt IE 9]>
-                <script src="<?=$theme_url?>js/html5.js"></script>            
-                <script src="<?=$theme_url?>js/respond.min.js"></script>                   
+                <script src="<?=_themeUrl()?>js/html5.js"></script>            
+                <script src="<?=_themeUrl()?>js/respond.min.js"></script>                   
         <![endif]-->    
